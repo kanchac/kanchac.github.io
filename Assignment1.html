@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h1>ASSIGNMENT 1</h1>
+<h2>Click Below Buttons To Check Answers</h2>
+
+<button onclick="myFunction1()">First Answer</button>
+<button onclick="myFunction2()">Second Answer</button>
+<button onclick="myFunction3()">Third Answer</button>
+<button onclick="myFunction4()">Fourth Answer</button>
+<button onclick="myFunction5()">Fifth Answer</button>
+<button onclick="myFunction6()">Sixth Answer</button>
+
+<br><br><div id="myDIV">This is a div element</div><br>
+<button onclick="myFunction7()">Seventh Answer</button>
+
+<script>
+function myFunction1() 
+{
+	var carName;
+    carName="Honda City";
+    alert(carName);
+    
+}
+
+function myFunction2() 
+{
+    var number; 
+    number="150";
+    alert(number);
+
+}
+
+function myFunction3() 
+{
+    var x=5,y=10; 
+    x+y;
+    alert(x+y);
+
+}
+
+function myFunction4() 
+{
+    var x=5,y=10;
+    var z=x+y;
+    alert(z);
+
+}
+
+function myFunction5() 
+{
+
+    var person = 
+    {
+    	firstName : "John",
+    	lastName : "Doe",
+    	age : 35
+    }; 
+    alert(person.firstName + person.lastName + person.age);
+
+}
+
+function myFunction6(){ 
+
+    const DOB = calculateAge(1990);
+function calculateAge(birthYear) 
+{
+    var currentYear = new Date().getFullYear();
+    return currentYear - birthYear;
+    
+}
+alert(DOB);
+
+}
+
+   
+function myFunction7() 
+{
+    var x =document.getElementById("myDIV").innerHTML;
+    x=10;
+    alert(x);
+
+}
+
+</script>
+
+</body>
+</html>
+
