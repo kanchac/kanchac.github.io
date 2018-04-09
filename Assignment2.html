@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h1>ASSIGNMENT 2</h1>
+
+<button onclick="myFunction1()">First Answer</button>
+<button onclick="myFunction2()">Second Answer</button>
+<button onclick="myFunction3()">Third Answer</button>
+<button onclick="myFunction4()">Fourth Answer</button>
+<!-- <button onclick="myFunction5()">Fifth Answer</button> -->
+<button onclick="myFunction6()">Sixth Answer</button>
+<!-- <button onclick="myFunction7()">Seventh Answer</button> -->
+<button onclick="myFunction8()">eight Answer</button>
+<!-- <button onclick="myFunction9()">nineth Answer</button> -->
+<!-- <button onclick="myFunction10()">tenth Answer</button> -->
+
+<script>
+// answer 1-
+function myFunction1() 
+{
+ var counter = 0;
+ counter++; 
+ ++counter; 
+ alert("At start value of counter = 0.for counter++ value of counter will be still counter = 0 as it will first assign the value & then increment it.so after this counter = 1 will be pass on to next.for ++counter value will first get increment & then will get assigned to the variable.so now counter will be " +counter);
+ 
+}
+// answer 2-
+function myFunction2() 
+{
+	var n = 2; 
+	n *= 3 + 5; 
+	alert("The *= assignment operator multiplies a variable,here 2 will get multiply with 8.value of n will be:" +n );
+
+}
+// answer 3-
+function myFunction3() 
+{
+
+    var a = 1, b = 1; 
+    var c = ++a; 
+    var d = b++; 
+	alert("The value of a is: " +a+ " The value of b is: "+b+ " The value of c is: " +c+ " The value of d is: " +d);
+
+}
+// answer 4-
+
+function myFunction4() 
+{
+	var a = 2; 
+	var x = 1 + (a *= 2);
+	alert("The value of a is: " +a+ "The value of x is:" +x);
+
+}
+
+// answer 5-
+// function myFunction5() 
+// {
+// 	var a= prompt("enter number1");
+//     var b= prompt(" enter number2");
+//     var c= prompt(" enter number3");
+//     var d= prompt(" enter number4");
+// var a=2, b=5, c=6, d=3;
+
+// if(a>b && a>c && a>d) 
+// {
+// 	alert("max no is"+a);
+// }
+
+// elseif(b>a && b>c && b>d) 
+
+// { 
+// 	alert("max no is"+b);
+// }
+
+// elseif (c>a && c>b && c>d) 
+
+// {
+// 	alert("max no is"+c);
+// }
+
+// else 
+// {
+// 	alert("max no is"+d);
+// }
+
+
+// }
+
+
+// answer 6
+function myFunction6() 
+{
+	var a= prompt("enter number1");
+    var b= prompt("enter number2");
+    var result = (a+b<4)?"below":"over";
+    alert(result);
+
+}
+
+// answer 7
+
+// function myFunction7() 
+// {
+// 	var a = prompt('a?', '');
+// switch (a)
+// {
+// case "a==0"  : alert(0); break;
+// case "a=1"  : alert(1); break;
+// case "(a==2 || a==3)"  : alert('2,3'); break;
+// default: alert(number is not valid);
+// }
+
+// }
+
+
+// answer 8
+function myFunction8() 
+{
+	var teen;
+	var age = prompt("enter your age");
+
+if(isNaN(age))
+{
+teen = "input is not number";
+}
+else
+{
+teen = (age >= 13 && age <= 19) ? "teenager" : "not teenager";
+alert(teen);
+}
+}
+
+// answer 9
+
+// function myFunction9() 
+// {
+
+// 	var day;
+// 	prompt("enter case");
+// switch(new Date().getDay())
+// { 
+// case 0 : day = "sunday";
+// // text = "it's a weekend"; 
+// break;
+// case 1 : day = "monday"; 
+// break;
+// case 2 : day = "tuesday"; 
+// break;
+// case 3 : day = "wednesday";
+// break;
+// case 4 : day = "thursday"; 
+// break;
+// case 5 : day = "friday"; 
+// break;
+// case 6 : day = "Saturday";
+// // text = "it's a weekend"; 
+// break;
+// default: day= "unknown day";
+// }
+// alert("today is" +day);
+
+// }
+
+// answer 10
+
+// function myFunction10() 
+// {
+// 	var now = new Date();
+//     var hours = now.getHours();
+
+// document.write("it's now : ",hours,"<br>");
+// // document.bgColor = "CC9900";
+
+// if(hours >4 && hours <17)
+// {
+// document.write("<body style = "background-color: yellow">");
+// }
+
+// elseif(hours >16 && hours <20)
+// {
+// document.write("<body style = "background-color: blue">");
+// }
+
+// elseif(hours >19 && hours <5)
+// {
+// document.write("<body style = "background-color: black">");
+// }
+// else
+// {
+// document.write("<body style = "background-color: white">");
+// }
+
+
+// }
+
+
+</script>
+</body>
+</html>
